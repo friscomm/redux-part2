@@ -25,12 +25,12 @@ class UserList extends Component {
       </ul>
     );
   }
-
 }
 
 function mapStateToProps(state){
   return{
-    users: state.users
+    users: state.users,
+    activeUser: state.activeUser
   };
 }
 
